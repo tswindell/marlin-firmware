@@ -36,7 +36,7 @@
 #endif
 
 #ifndef WELCOME_MSG
-  #define WELCOME_MSG                         MACHINE_NAME " ready."
+  #define WELCOME_MSG                         MACHINE_NAME " Ready."
 #endif
 #ifndef MSG_SD_INSERTED
   #define MSG_SD_INSERTED                     "Card inserted"
@@ -363,7 +363,7 @@
   #define MSG_REFRESH                         "Refresh"
 #endif
 #ifndef MSG_WATCH
-  #define MSG_WATCH                           "Info screen"
+  #define MSG_WATCH                           "Home"
 #endif
 #ifndef MSG_PREPARE
   #define MSG_PREPARE                         "Prepare"
