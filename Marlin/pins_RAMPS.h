@@ -135,6 +135,9 @@
 #ifndef MOSFET_D_PIN
   #define MOSFET_D_PIN  -1
 #endif
+#ifndef RAMPS_D5_PIN
+  #define RAMPS_D5_PIN   5
+#endif
 #ifndef RAMPS_D8_PIN
   #define RAMPS_D8_PIN   8
 #endif
@@ -148,7 +151,7 @@
 #define HEATER_0_PIN     RAMPS_D10_PIN
 
 #if ENABLED(IS_RAMPS_EFB)                      // Hotend, Fan, Bed
-  #define FAN_PIN        RAMPS_D9_PIN
+  #define FAN_PIN        RAMPS_D5_PIN
   #define HEATER_BED_PIN RAMPS_D8_PIN
 #elif ENABLED(IS_RAMPS_EEF)                    // Hotend, Hotend, Fan
   #define HEATER_1_PIN   RAMPS_D9_PIN
